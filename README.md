@@ -42,7 +42,7 @@ A interface é composta pelos seguintes elementos:
 
 ## Estrutura do Projeto
 
-- `page.html`: Arquivo principal da interface web.
+- `index.html`: Arquivo principal da interface web.
 - `styles.css`: Arquivo de estilos que define o layout e aparência dos elementos.
 - `consts.js`: Arquivo de script que contém as constantes utilizadas nos demais scripts.
 - `svgDrawFunctions.js`: Arquivo de script que contém a logica para geração de elementos SVG, assim como a lógica da disposições desses elementos no SVG.

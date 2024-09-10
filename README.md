@@ -26,8 +26,8 @@ A interface é composta pelos seguintes elementos:
 
     É encontrado no botão verde "code" ao subir a tela e clique em "Download ZIP"
 
-2. **Abra o arquivo `page.html` ao pasta que foi baixada**:
-    Basta abrir o arquivo `page.html` em qualquer navegador web, possuindo os demais arquivos no mesmo diretório de `page.hmtl`.
+2. **Abra o arquivo `index.html` ao pasta que foi baixada**:
+    Basta abrir o arquivo `index.html` em qualquer navegador web, possuindo os demais arquivos no mesmo diretório de `index.html`.
 
 3. **Interaja com a interface**:
     - Clique nos botões para ligar ou desligar cada boca, ou nos estados para ver a disposição das bocas daquele estado.

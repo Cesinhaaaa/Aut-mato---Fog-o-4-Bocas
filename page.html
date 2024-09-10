@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autômato Fogão de 4 Bocas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1> <u>Autômato Fogão de 4 Bocas</u> </h1>
+
+<h2>Bocas interativas:</h2>
+<div class="button-container">
+    <div class="button-row"></div>
+        <div id="button1" class="button off" data-boca="boca1">1</div>
+        <div id="button2" class="button off" data-boca="boca2">2</div>
+        <div id="button3" class="button off" data-boca="boca3">3</div>
+        <div id="button4" class="button off" data-boca="boca4">4</div>
+</div>
+
+<h2>Estado atual: <span id="estado-atual" style="color: red;">Desconhecido</span></h2>
+
+<input type="text" id="meuCampoTexto" placeholder="Digite uma palavra para teste" size="21px">
+<p id="resultado" style="font-size: 20px;">Palavra: </p>
+
+<h2 style="margin-bottom: 0px; margin-top: 0px;">Descrição formal do autômato M = (Q, Σ, δ, q0, F):</h2>
+<ul>
+    <li>Conjunto de Estados (Q)</li>
+    <pre>Q: {q0, q1, q4, q3, q4, q5, q6, q7, q8, q9, q10, q11, q14, q13, q14, q15}</pre>
+
+    <li>Alfabeto (Σ)</li>
+    <pre>Σ: {1, 4, 3, 4}</pre>
+
+    <li>Função de Transição (δ)</li>
+
+    <pre>δ:<span class="toggle" onclick="toggleImageOfTransitions()">Clique aqui para ver as funções de transição</span></pre>
+    <div class="hover-image">
+        <img src="funcoesDeTransicao.PNG" alt="Imagem não encontrada">
+    </div>
+
+    <li>Estado Inicial (q0)</li>
+    <pre>q0: Estado inicial</pre>
+
+    <li>Conjunto de Estados Finais (F)</li>
+    <pre>F: {q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15}</pre>
+</ul>
+
+<svg id="svgCanvas" style="top: 30px; left: 660px;"></svg>
+
+<div style="position: absolute; top: 630px; left: 1600px;">
+    <p style="font-size: 18px;"><strong>Descrição dos estados:</strong></p>
+    <ul id="lista-estados" style="list-style-type: none; font-size: 14px; padding: 0px;"></ul>
+</div>
+
+<script src="consts.js"></script>
+<script src="svgDrawFunctions.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>

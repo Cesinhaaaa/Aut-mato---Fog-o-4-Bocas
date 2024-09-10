@@ -1,0 +1,87 @@
+body {
+    width: 90%;
+    background-color: #ccc;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+svg {
+    width: 950px;
+    height: 900px;
+    position: absolute;
+}
+circle {
+    stroke: black;
+    stroke-width: 2px;
+}
+text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    fill: black, red;
+}
+polygon {
+    fill: black, red;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.button-label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.button-row {
+    display: flex;
+    gap: 10px;
+}
+.button {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    pointer-events: auto;
+}
+.button.on {
+    background-color: red;
+    color: white;
+}
+.button.off {
+    background-color: white;
+    color: black;
+}
+
+consumido {
+    color: black;
+}
+.restante {
+    color: red;
+}
+
+.toggle {
+    cursor: pointer;
+    color: #007BFF;
+    text-decoration: underline;
+    padding: 5px; /* Menos padding para a área clicável ser apenas o texto */
+    display: inline-block; /* Faz com que a área clicável seja apenas o texto */
+}
+.hover-image {
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+}
+.hover-image img {
+    max-width: 100%; /* Ajusta a imagem para o tamanho do contêiner */
+    height: auto;
+}

@@ -22,17 +22,21 @@ A interface é composta pelos seguintes elementos:
 
 ## Como Usar
 
-1. **Baixe os arquivos**:
+- **Uso online (página na web)**:
+    1. [Acesse este link](https://cesinhaaaa.github.io/TC-2024.1/).
 
-    É encontrado no botão verde "code" ao subir a tela e clique em "Download ZIP"
-
-2. **Abra o arquivo `index.html` ao pasta que foi baixada**:
-    Basta abrir o arquivo `index.html` em qualquer navegador web, possuindo os demais arquivos no mesmo diretório de `index.html`.
-
-3. **Interaja com a interface**:
-    - Clique nos botões para ligar ou desligar cada boca, ou nos estados para ver a disposição das bocas daquele estado.
-    - Observe a atualização do estado do sistema na frase exibida, juntamente na alteração da cor no estado atual do autômato.
-    - Digite uma palavra da linguagem e veja como o autômato se comporta ao ler aquela palavra.
+- **Uso local (sem conexão com a internet)**:
+    1. **Baixe os arquivos**:
+    
+        É encontrado no botão verde "code" ao subir a tela e clique em "Download ZIP"
+    
+    2. **Abra o arquivo `index.html` ao pasta que foi baixada**:
+        Basta abrir o arquivo `index.html` em qualquer navegador web, possuindo os demais arquivos no mesmo diretório de `index.html`.
+    
+    3. **Interaja com a interface**:
+        - Clique nos botões para ligar ou desligar cada boca, ou nos estados para ver a disposição das bocas daquele estado.
+        - Observe a atualização do estado do sistema na frase exibida, juntamente na alteração da cor no estado atual do autômato.
+        - Digite uma palavra da linguagem e veja como o autômato se comporta ao ler aquela palavra.
 
 ## Tecnologias Utilizadas
 
